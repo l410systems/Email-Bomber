@@ -10,6 +10,6 @@ Usage :
 
 1) git clone https://github.com/l410systems/Email-Bomber.git
 2) cd Email_Bomber
-3) python emailbomber.py
+3) python bomber.py
 
 
